@@ -13,3 +13,10 @@ p {
     border: 10px dotted magenta;
     background-color: aqua;
 }
+
+canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
