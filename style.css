@@ -1,0 +1,14 @@
+body {
+    background: rgb(199, 240, 138);
+}
+
+img {
+    width: 30vw;
+    height: 100px;
+}
+
+p {
+    font-size: 60px;
+    color: yellow;
+    border: 10px dotted magenta;
+}
