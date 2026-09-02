@@ -10,6 +10,7 @@ function draw() {
     // ellipse(mouseX, mouseY, 50, 80);
     rectMode(CENTER);
     rect(mouseX, mouseY, 50, 30);
+    
 }
 
 function windowResized() {
