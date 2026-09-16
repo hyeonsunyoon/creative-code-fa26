@@ -2,7 +2,7 @@ function setup() {
   createCanvas(400, 400);
 }
 
-let barNum = 10;
+let barNum = 14;
 
 function draw() {
   background(220);
