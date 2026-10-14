@@ -10,7 +10,7 @@ let colors = [];
 
 let plantSound
 let bopSound
-let pcikSoundBad
+let crinkleSound
 
 async function setup() {
   createCanvas(windowWidth, windowHeight);
