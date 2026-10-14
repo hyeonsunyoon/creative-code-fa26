@@ -77,7 +77,7 @@ function soundPlay(index) {
 
 function plantRandom() {
   let ranVal = random(1);
-  let mushVal = random(1,3);
+  let mushVal = random(1,5);
 
   let originLength = mushrooms.length
 
