@@ -8,7 +8,8 @@ let headWidth = 50;
 let headHeight = 25;
 let colors = [];
 
-let pickSoundGood
+let plantSound
+let bopSound
 let pcikSoundBad
 
 async function setup() {
@@ -16,8 +17,8 @@ async function setup() {
   angleMode(DEGREES);
 
   plantSound = await loadSound('plant.m4a')
-  pickSoundGood = await loadSound('bop.mp3')
-  pickSoundBad = await loadSound('crinkle.m4a')
+  bopSound = await loadSound('bop.mp3')
+  crinkleSound = await loadSound('crinkle.m4a')
   
   colors = [color(255, 255, 255), color(255, 255, 0), color(0, 255, 0)];
 
@@ -68,9 +69,9 @@ function draw() {
 
 function soundPlay(index) {
   if (mushrooms[index].time < 30) {
-    pickSoundGood.play()
+    bopSound.play()
   } else {
-    pickSoundBad.play()
+    crinkleSound.play()
   }
 }
 
